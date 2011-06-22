@@ -1,0 +1,237 @@
+body{
+	margin:0;
+	padding-bottom:20px;
+	height:100%;
+	font:15px times, Verdana, Tahoma, Arial;
+}
+
+A:link {text-decoration: none; color: #ab0000;}
+A:visited {text-decoration: none; color: #980000;}
+A:active {text-decoration: none; color: #980000;}
+A:hover {text-decoration: underline; color: #ab0000;}
+
+img {
+	border:0px;
+}
+
+.sub {
+	border:0px;
+}
+
+tr.button {
+	font:18px times, Verdana, Tahoma, Arial;
+	font-weight:bold;
+	cursor:pointer;
+}
+
+div.h1 {
+	font:20px times, Verdana, Tahoma, Arial;
+	font-weight:bold;
+	position:relative;
+}
+
+div.h2 {
+	font:30px times, Verdana, Tahoma, Arial;
+	font-weight:bold;
+	position:relative;
+}
+
+div.h3 {
+	font:50px times, Verdana, Tahoma, Arial;
+	font-weight:bold;
+	position:relative;
+}
+#container {
+   min-height:100%;
+   width:100%;
+   position:absolute;
+}
+#header {
+	background:url('http://mrgeckosmedia.com/images/header.jpg') repeat-x bottom left;
+	width:100%;
+	height:220px;
+	position:relative;
+}
+
+#logo {
+	background:url('http://mrgeckosmedia.com/images/logo.jpg') no-repeat bottom left;
+	bottom:0;
+	width:600px;
+	height:220px;
+	position:absolute;
+}
+
+#menu {
+	background:url('http://mrgeckosmedia.com/images/bar.png') repeat-x bottom left;
+	bottom:0px;
+	width:100%;
+	height:24px;
+	text-align:center;
+	position:absolute;
+}
+
+#menu A:link {text-decoration: none; color: #1f1f1f;}
+#menu A:visited {text-decoration: none; color: #151515;}
+#menu A:active {text-decoration: none; color: #151515;}
+#menu A:hover {text-decoration: underline; color: #000000;}
+
+#menu-items {
+	padding-top:3px;
+}
+
+#socialicons {
+	bottom:0px;
+	width:90px;
+	height:24px;
+	right:0px;
+	position:absolute;
+}
+
+#content {
+	margin:0 auto 0;
+	width:85%;
+	height:auto;
+	background:#FFFFFF;
+	position:relative;
+}
+
+#footer {
+	background:#CCCCCC;
+	color:#1a1a1a;
+	bottom:0;
+	width:100%;
+	height:24px;
+	text-align:center;
+	position:absolute;
+}
+
+#copyright {
+	padding-top:3px;
+}
+
+/* Forum Stuff */
+#location {
+	width:80%;
+	height:15px;
+	text-align:left;
+}
+
+div.pages A {
+	text-decoration:none;
+	color:#000000;
+	position:relative;
+}
+#postthread {
+	width:150px;
+	height:30px;
+	cursor:pointer;
+}
+
+#forumlist {
+	border:1px solid #999999;
+	background:#FFFFFF;
+	width:80%;
+	margin:0;
+	padding:0;
+	position:relative;
+}
+#forumlist tr.top {
+	background:#AAAAAA;
+}
+#forumlist tr:hover.item {
+	background:#EEEEEE;
+	cursor:pointer;
+}
+
+table.post {
+	border:1px solid #999999;
+	background:#FFFFFF;
+	width:90%;
+	margin:0;
+	padding:0;
+	position:relative;
+}
+td.postside {
+	width:150px;
+	vertical-align:top;
+	text-align:center;
+	background:#AAAAAA;
+}
+td.postcontent {
+	vertical-align:top;
+	background:#DDDDDD;
+}
+
+/* application stuff */
+#appslist {
+	border:1px solid #999999;
+	background:#FFFFFF;
+	width:95%;
+	margin:0;
+	padding:0;
+	position:relative;
+}
+#appslist tr.top {
+	background:#AAAAAA;
+}
+#appslist tr:hover.item {
+	background:#EEEEEE;
+	cursor:pointer;
+}
+
+#appname {
+	border:2px solid #999999;
+	background:#CCCCCC;
+	margin:0;
+	padding:0;
+	position:relative;
+}
+
+#sdesc {
+	font:12px times, Verdana, Tahoma, Arial;
+	position:relative;
+}
+
+#appinfo {
+	border:1px solid #999999;
+	background:#DDDDDD;
+	width:85%;
+	margin:0;
+	padding:0;
+	position:relative;
+}
+
+div.tdesc {
+	font:12px times, Verdana, Tahoma, Arial;
+	font-weight:bold;
+	color:#333333;
+	position:relative;
+}
+
+#reviews {
+	border:1px solid #999999;
+	background:#FFFFFF;
+	width:85%;
+	margin:0;
+	padding:0;
+	position:relative;
+}
+
+td.reuser {
+	width:150px;
+	vertical-align:top;
+	text-align:center;
+	background:#AAAAAA;
+}
+td.recontect {
+	vertical-align:top;
+	background:#DDDDDD;
+}
+#screenshots {
+	border:1px solid #999999;
+	background:#DDDDDD;
+	width:95%;
+	margin:0;
+	padding:0;
+	position:relative;
+}
